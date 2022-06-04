@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /styleguide/
+permalink: /resume/
 image: '/images/50.jpg'
 ---
 
