@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Norlin
+title: Thom Hall Design
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
 baseurl: "" # The subpath of your site, e.g. /blog
@@ -10,14 +10,14 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # Author Settings
 author:
-  name: Robert Wilson
+  name: Thom Hall
   avatar: '/images/15.jpg'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: Robert Wilson
+  title: Thom Hall
   description: Thoughts, stories and ideas.
   image: '/images/01.jpg'
 
