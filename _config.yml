@@ -56,6 +56,7 @@ social:
 # Comment Section (Google Comments Form 1)
 comment-post: https://docs.google.com/forms/d/e/1FAIpQLScUKN8P1nNxA_Fbr9v4dB4mfAS4mgDpikE7kUilKS32f3L3fQ
 comment-read: https://docs.google.com/spreadsheets/d/1t1oIyFTb9-6QsgViWhXMb5ZNT6TfVOHVP5-Gl22csjk
+comment-post-fields: [ entry.178752272, entry.2113616886, entry.461456775]
 
 
 #-------------------------------
