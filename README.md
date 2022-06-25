@@ -24,3 +24,7 @@ I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/de
 ### Documentation
 
 Before using the Norlin theme, please read the attached documentation.
+
+### Google forms as comments
+
+We are using [https://jdvp.me/articles/Google-Forms-Jekyll-Comments](https://jdvp.me/articles/Google-Forms-Jekyll-Comments) to replace Discus with Google forms as the comment manager.
