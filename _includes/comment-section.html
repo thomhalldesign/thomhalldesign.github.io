@@ -17,14 +17,14 @@
 	By default this is turned OFF. If the page has enabled or disabled this feature explicitly,
 	the individual page value is used. Otherwise the site's value, if any, is used.
 {%- endcomment -%}
-{%- assign lazy_load_enabled = false -%}
-{%- if page.lazy_load_comments == true -%}
-	{%- assign lazy_load_enabled = true -%}
-{%- elsif site.google_forms_comments.lazy_load_comments == true -%}
-	{%- unless page.lazy_load_comments == false -%}
-		{%- assign lazy_load_enabled = true -%}
-	{%- endunless -%}
-{%- endif -%}
+assign lazy_load_enabled = false
+if page.lazy_load_comments == true
+	assign lazy_load_enabled = true
+elsif site.google_forms_comments.lazy_load_comments == true
+	unless page.lazy_load_comments == false
+		assign lazy_load_enabled = true
+	endunless
+endif
 
 {%- comment -%} 
 	This section is to determine whether or recaptcha is enabled.
